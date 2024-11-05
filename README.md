@@ -1,6 +1,11 @@
 # 说明
 禁止🚫大黄狗及其狗腿子访问，请自觉退出  
+apptoken用于青龙wxpusher一对一推送，例如6dylan库  
+  
+登录页面：http://ip:4321  
+后台管理连接：http://ip:4321/admin  
 
+开发插件[API](https://github.com/dsmggm/svjdck/blob/main/README_API.md)可以看这里  
 # docker部署
 docker部署命令：  
 <pre>
@@ -53,6 +58,9 @@ docker logs -f 200 jdck
 - docker镜像发布
 ## v20241101
 - 修复推送UID二维码关注问题
+- 自动更新机制
+## v20241104
+- 公开API
 </pre>
 
 # 打赏  
@@ -63,7 +71,3 @@ docker logs -f 200 jdck
 # 免责声明  
 本脚本仅供学习参考，请在下载后24小时内删除，请勿用于非法用途。  
 作者不对因使用该脚本造成的任何损失或法律问题负责。  
-
-# 待优化
-1、后台重启按钮  
-2、更新 
